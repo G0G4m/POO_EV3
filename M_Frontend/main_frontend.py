@@ -15,14 +15,14 @@ def main():
     notebook = ttk.Notebook(root)
     notebook.pack(expand=True,fill="both")
 
-    home_tab = tab_home(notebook)
-    notebook.add(home_tab,text="Home")
+    #home_tab = tab_home(notebook)
+    #notebook.add(home_tab,text="Home")
     #empleado_tab = ""
     #notebook.add(empleado_tab,text="Empleado")
-    departamento_tab = tab_departamento(notebook)
-    notebook.add(departamento_tab,text="Departamento")
-    proyecto_tab = tab_proyecto(notebook)
-    notebook.add(proyecto_tab,text="Proyecto")
+    #departamento_tab = tab_departamento(notebook)
+    #notebook.add(departamento_tab,text="Departamento")
+    #proyecto_tab = tab_proyecto(notebook)
+    #notebook.add(proyecto_tab,text="Proyecto")
     registro_tab = tab_reg_tiempo(notebook)
     notebook.add(registro_tab,text="Registro de Tiempo")
     #api_tab = ""
